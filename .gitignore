@@ -1,0 +1,11 @@
+# Exclude sensitive files
+*.env
+*.key
+*.pem
+secrets/
+
+# Exclude Gradio and virtual environment directories
+.gradio/
+venv/
+__pycache__/
+*.pyc
