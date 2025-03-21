@@ -1,138 +1,46 @@
-# Project Setup Guide
+# 🏥 AI Medical Assistance V1  
+🚀 **AI-Powered Virtual Doctor** for initial diagnosis using **NLP (GPT/BERT)** and **Computer Vision (YOLOv8 & OpenCV)**.  
 
-This guide provides step-by-step instructions to set up your project environment, including the installation of FFmpeg and PortAudio across macOS, Linux, and Windows, as well as setting up a Python virtual environment using Pipenv, pip, or conda.
+![AI Medical Assistance](https://source.unsplash.com/1000x400/?health,ai)  
 
-## Table of Contents
-
-1. [Installing FFmpeg and PortAudio](#installing-ffmpeg-and-portaudio)
-   - [macOS](#macos)
-   - [Linux](#linux)
-   - [Windows](#windows)
-2. [Setting Up a Python Virtual Environment](#setting-up-a-python-virtual-environment)
-   - [Using Pipenv](#using-pipenv)
-   - [Using pip and venv](#using-pip-and-venv)
-   - [Using Conda](#using-conda)
-3. [Running the application](#project-phases-and-python-commands)
-
-## Installing FFmpeg and PortAudio
-
-### macOS
-
-1. **Install Homebrew** (if not already installed):
-
-   
-bash
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-
-2. **Install FFmpeg and PortAudio:**
-
-   
-bash
-   brew install ffmpeg portaudio
-
-
-
-### Linux
-For Debian-based distributions (e.g., Ubuntu):
-
-1. **Update the package list**
-
-sudo apt update
-
-
-2. **Install FFmpeg and PortAudio:**
-sudo apt install ffmpeg portaudio19-dev
-
-
-### Windows
-
-#### Download FFmpeg:
-1. Visit the official FFmpeg download page: [FFmpeg Downloads](https://ffmpeg.org/download.html)
-2. Navigate to the Windows builds section and download the latest static build.
-
-#### Extract and Set Up FFmpeg:
-1. Extract the downloaded ZIP file to a folder (e.g., C:\ffmpeg).
-2. Add the bin directory to your system's PATH:
-   - Search for "Environment Variables" in the Start menu.
-   - Click on "Edit the system environment variables."
-   - In the System Properties window, click on "Environment Variables."
-   - Under "System variables," select the "Path" variable and click "Edit."
-   - Click "New" and add the path to the bin directory (e.g., C:\ffmpeg\bin).
-   - Click "OK" to apply the changes.
-
-#### Install PortAudio:
-1. Download the PortAudio binaries from the official website: [PortAudio Downloads](http://www.portaudio.com/download.html)
-2. Follow the installation instructions provided on the website.
+![GitHub repo size](https://img.shields.io/github/repo-size/Deb2oo/Ai_medical_assistance_v1?color=blue&style=flat-square)  
+![GitHub last commit](https://img.shields.io/github/last-commit/Deb2oo/Ai_medical_assistance_v1?style=flat-square)  
+![GitHub issues](https://img.shields.io/github/issues/Deb2oo/Ai_medical_assistance_v1?color=yellow&style=flat-square)  
+![GitHub forks](https://img.shields.io/github/forks/Deb2oo/Ai_medical_assistance_v1?color=teal&style=flat-square)  
+![GitHub stars](https://img.shields.io/github/stars/Deb2oo/Ai_medical_assistance_v1?color=gold&style=flat-square)  
 
 ---
 
-## Setting Up a Python Virtual Environment
-
-### Using Pipenv
-1. **Install Pipenv (if not already installed):**  
-pip install pipenv
-
-
-2. **Install Dependencies with Pipenv:** 
-
-pipenv install
-
-
-3. **Activate the Virtual Environment:** 
-
-pipenv shell
-
+## 📜 Table of Contents  
+1. [💡 Features](#-features)  
+2. [📂 Project Structure](#-project-structure)  
+3. [🚀 Installation Guide](#-installation-guide)  
+4. [🖥️ Running the Project](#-running-the-project)  
+5. [📊 Model Performance](#-model-performance)  
+6. [🎬 Demo Video](#-demo-video)  
+7. [📞 Contact](#-contact)  
 
 ---
 
-### Using pip and venv
-#### Create a Virtual Environment:
-python -m venv venv
-
-
-#### Activate the Virtual Environment:
-**macOS/Linux:**
-source venv/bin/activate
-
-
-**Windows:**
-venv\Scripts\activate
-
-
-#### Install Dependencies:
-pip install -r requirements.txt
-
+## 💡 **Features**  
+✅ AI-driven **medical chatbot** using OpenAI GPT/BERT  
+✅ **Facial expression analysis** (YOLOv8 & OpenCV)  
+✅ **Speech-to-text processing** (FFmpeg & PortAudio)  
+✅ **User-friendly Gradio UI**  
+✅ **Secure API integration** for real-time diagnosis  
 
 ---
 
-### Using Conda
-#### Create a Conda Environment:
-conda create --name myenv python=3.11
+## 📂 **Project Structure**  
 
-
-#### Activate the Conda Environment:
-conda activate myenv
-
-
-#### Install Dependencies:
-pip install -r requirements.txt
-
-
-
-# Project Phases and Python Commands
-
-## Phase 1: Brain of the doctor
-python brain_of_the_doctor.py
-
-
-## Phase 2: Voice of the patient
-python voice_of_the_patient.py
-
-
-## Phase 3: Voice of the doctor
-python voice_of_the_doctor.py
-
-
-## Phase 4: Setup Gradio UI
-python gradio_app.py
+```bash
+📁 Ai_medical_assistance_v1
+│── 📄 README.md
+│── 📄 requirements.txt
+│── 📄 gradio_app.py  # Main UI file
+│── 📄 brain_of_the_doctor.py  # AI model
+│── 📄 voice_of_the_patient.py  # Speech recognition
+│── 📄 voice_of_the_doctor.py  # AI response voice
+│── 📁 models  # Trained models
+│── 📁 datasets  # Medical datasets
+│── 📁 static  # UI assets
