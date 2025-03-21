@@ -88,7 +88,7 @@ You can upload images and videos in the `assets/` folder and link them here.
 ![Sample Screenshot](assets/sample_screenshot.png)
 
 ### 🎥 Demo Video
-[![Watch the Demo](assets/demo_thumbnail.png)](https://your-video-link.com)
+[![Watch the Demo](assets/demo_thumbnail.png)](https://drive.google.com/file/d/1mj-PPXVoB7rFkZY0TrEMAi0l6N3ncYbT/view?usp=sharing)
 
 ---
 
