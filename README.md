@@ -83,7 +83,7 @@ pip install -r requirements.txt
 ## 📽️ Pictures & Demo Videos
 
 ### 🖼 Screenshots
-<img src="assets/img1.png" alt="Sample Screenshot" width="300">
+<img src="assets/sample_screenshot_2.png" alt="Sample Screenshot" width="300">
 <img src="assets/img2.png" alt="Screenshot 2" width="300">
 <img src="assets/img3.png" alt="Screenshot 3" width="300">
 
