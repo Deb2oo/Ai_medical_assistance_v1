@@ -89,7 +89,8 @@ pip install -r requirements.txt
 
 ### 🎥 Demo Video
 <a href="https://drive.google.com/file/d/1mj-PPXVoB7rFkZY0TrEMAi0l6N3ncYbT/view?usp=sharing">
-    <img src="assets/img4" alt="Demo Video" width="300">
+  📽️ Demo Video >>>>
+   
 </a>
 
 
