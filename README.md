@@ -83,9 +83,11 @@ pip install -r requirements.txt
 ## 📽️ Pictures & Demo Videos
 
 ### 🖼 Screenshots
-<img src="assets/sample_screenshot_2.png" alt="Sample Screenshot" width="300">
-<img src="assets/img2.png" alt="Screenshot 2" width="300">
-<img src="assets/img3.png" alt="Screenshot 3" width="300">
+<div style="display: flex; gap: 10px;">
+    <img src="assets/sample_screenshot_2.png" alt="Sample Screenshot" width="300">
+    <img src="assets/img2.png" alt="Screenshot 2" width="300">
+    <img src="assets/img3.png" alt="Screenshot 3" width="300">
+</div>
 
 ### 🎥 Demo Video
 <a href="https://drive.google.com/file/d/1mj-PPXVoB7rFkZY0TrEMAi0l6N3ncYbT/view?usp=sharing">
