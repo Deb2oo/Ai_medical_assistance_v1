@@ -83,13 +83,13 @@ pip install -r requirements.txt
 ## 📽️ Pictures & Demo Videos
 
 ### 🖼 Screenshots
-<img src="assets/sample_screenshot0.png" alt="Sample Screenshot" width="300">
-<img src="assets/sample_screenshot_2.png" alt="Screenshot 2" width="300">
-<img src="assets/sample_screenshot_3.png" alt="Screenshot 3" width="300">
+<img src="assets/img1.png" alt="Sample Screenshot" width="300">
+<img src="assets/img2.png" alt="Screenshot 2" width="300">
+<img src="assets/img3.png" alt="Screenshot 3" width="300">
 
 ### 🎥 Demo Video
 <a href="https://drive.google.com/file/d/1mj-PPXVoB7rFkZY0TrEMAi0l6N3ncYbT/view?usp=sharing">
-    <img src="assets/demo_thumbnail.png" alt="Demo Video" width="300">
+    <img src="assets/img4" alt="Demo Video" width="300">
 </a>
 
 
