@@ -82,13 +82,16 @@ pip install -r requirements.txt
 
 ## 📽️ Pictures & Demo Videos
 
-You can upload images and videos in the `assets/` folder and link them here.
-
 ### 🖼 Screenshots
-![Sample Screenshot](assets/sample_screenshot.png)
+<img src="assets/sample_screenshot.png" alt="Sample Screenshot" width="300">
+<img src="assets/sample_screenshot_2.png" alt="Screenshot 2" width="300">
+<img src="assets/sample_screenshot_3.png" alt="Screenshot 3" width="300">
 
 ### 🎥 Demo Video
-[![Watch the Demo](assets/demo_thumbnail.png)](https://drive.google.com/file/d/1mj-PPXVoB7rFkZY0TrEMAi0l6N3ncYbT/view?usp=sharing)
+<a href="https://drive.google.com/file/d/1mj-PPXVoB7rFkZY0TrEMAi0l6N3ncYbT/view?usp=sharing">
+    <img src="assets/demo_thumbnail.png" alt="Demo Video" width="300">
+</a>
+
 
 ---
 
