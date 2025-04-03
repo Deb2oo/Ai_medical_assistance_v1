@@ -84,7 +84,7 @@ pip install -r requirements.txt
 
 ### 🖼 Screenshots
 <div style="display: flex; gap: 10px;">
-    <img src="assets/sample_screenshot_2.png" alt="Sample Screenshot" width="300">
+    <img src="assets/sample_screenshot_1.png" alt="Sample Screenshot" width="300">
     <img src="assets/img2.png" alt="Screenshot 2" width="300">
     <img src="assets/img3.png" alt="Screenshot 3" width="300">
    <img src="assets/img4.png" alt="Screenshot 4" width="300">
